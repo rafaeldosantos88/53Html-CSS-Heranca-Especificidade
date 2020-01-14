@@ -1,0 +1,41 @@
+/* Herança
+
+ body{
+	color:red;
+	font-size:16px;
+	border: 1px solid blue;
+	   background: gray; Por padrão border e background não são herdados
+
+}
+_______________________________________________________________________________________________________________________________________*/
+/*Especificidade
+
+#pagina p{
+	color:blue !important; /*Significa uma precedência quais regras vai ser aplicada Primeiro*/
+               /*Quer dizer que esse atributo mais importante.*/
+/*}*/
+/*agora se Eu tenho outro paragrafo e coloco outra cor*/
+/*Se Eu tenho dois paragrafos sempre o ultimo vai ser aplicado*/
+/* #pagina p{
+	color:red;
+
+} */
+
+/*_________________________________________________________________________________________________________________________________________*/
+
+/* Se um seletor for mais específico que outro a regra mais específica será aplicada(terá precedências sobre regras mais gerais)*/
+
+* {
+	color:blue;
+}
+
+h2{
+	color:pink;
+}
+h2.laranja{
+	color:orange;
+
+}
+h2#amarelo{
+	color:yellow;
+}
